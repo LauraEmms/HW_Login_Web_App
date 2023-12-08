@@ -7,7 +7,9 @@ const WelcomePage = ({ user, onWelcomePage }) => {
         Welcome, <span>{user.name}</span>
       </h2>
       <p>You've successfully logged in.</p>
-      <button className='button' onClick={onWelcomePage}>Logout</button>
+      <button className="button" onClick={onWelcomePage}>
+        Logout
+      </button>
     </div>
   );
 };

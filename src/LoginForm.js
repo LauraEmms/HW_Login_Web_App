@@ -10,7 +10,7 @@ function LoginForm({ Login, user }) {
   };
 
   return (
-    <form className='form' onSubmit={submitHandler}>
+    <form className="form" onSubmit={submitHandler}>
       <div className="form-inner">
         <h2>Login</h2>
         <div className="form-group">
@@ -45,7 +45,7 @@ function LoginForm({ Login, user }) {
             value={details.password}
           ></input>
         </div>
-        <input className='button'type="submit" value="LOGIN"></input>
+        <input className="button" type="submit" value="LOGIN"></input>
       </div>
     </form>
   );

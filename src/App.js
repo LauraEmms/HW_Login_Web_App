@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import LoginForm from "./LoginForm";
 import WelcomePage from "./WelcomePage";
 import LoginFailedPage from "./LoginFailedPage";
-import './App.css';
+import "./App.css";
 
 function App() {
   const adminUser = {
@@ -17,11 +17,8 @@ function App() {
   const Login = (details) => {
     console.log(details);
 
-
-    if (
-      details.email == [""] && details.password == [""]
-    ) {
-      alert("Please insert your email and password to login.")
+    if (details.email == [""] && details.password == [""]) {
+      alert("Please insert your email and password to login.");
     } else if (
       details.email == adminUser.email &&
       details.password == adminUser.password
